@@ -1,0 +1,15 @@
+{
+    "name": "pm/content-manager",
+    "autoload": {
+        "psr-4": {
+            "Pm\\ContentManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pm\\ContentManager\\ContentManagerServiceProvider"
+            ]
+        }
+    }
+}
